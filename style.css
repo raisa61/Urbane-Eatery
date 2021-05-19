@@ -1,0 +1,611 @@
+/*---------
+global (to fit to screen size)
+-----------*/
+html {
+    width:100vw;
+    margin-right:0;
+    overflow-x: hidden; /*to hide the extra white space at the right*/
+}
+body {
+    width:100vw;
+    margin-right:0;
+    overflow-x: hidden;
+    
+}
+/*--------
+navbar
+----------*/
+#logo {
+    float:left;
+    margin:0;
+    width:190px;
+    height:57px;
+  }
+
+#navicon {
+    float:right;
+    margin-right:5%;
+}
+
+.nav-ham {
+    margin-right:5%;
+    width:40px;
+    height:40px;
+    float:right;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 15%;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #0c0f25;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poiret One', Courier, monospace;
+    line-height: 2;
+  }
+  
+  .sidebar a:hover {
+    color: grey;
+    opacity:2;
+    text-decoration: none;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+
+/*-----------
+background image
+------------*/
+#bg {
+    width:100%;
+    height:100%;
+}
+/*------------------
+scroll down animation
+-------------------*/
+.scrollmee p{
+    font-family: 'Cormorant Garamond', Courier, monospace;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #67686b;
+    opacity: 0.6;
+}
+.hi a:hover {
+    text-decoration: none;
+    color: #67686b;
+    opacity: 2;
+}
+
+/*----------
+writings
+-----------*/
+#write1 {
+    
+    margin-top:45%;
+    text-align: center;
+    font-family: 'Nothing You Could Do', Courier, monospace;
+    font-weight: 600;
+    color: #0c0f25;
+    opacity: 0.4;
+    font-size: 1.5em;
+}
+
+#write2 {
+    font-family: 'Poiret One', Courier, monospace;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 2%;
+}
+
+#write3 {
+    font-family: 'Nothing You Could Do', Courier, monospace;
+    font-weight: 600;
+    color: #0c0f25;
+    opacity: 0.9;
+    font-size: 2em;
+    margin-top:10%;
+    text-align: center;
+
+}
+/*----------
+welcome text
+------------*/
+.welcome {
+    font-size:1.1em;
+    font-family:'Cormorant Garamond', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    font-weight: 500;
+    color: #0c0f25;
+    opacity:0.9;
+}
+/*-----------
+menu text
+------------*/
+.menuwel1 {
+    font-family: 'Poiret One', Courier, monospace;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top:10%;
+    font-weight: 600;
+
+}
+.menuwel2 {
+    font-family: 'Nothing You Could Do', Courier, monospace;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 4%;
+    color: #0c0f25;
+    opacity:0.7;
+}
+
+/*-----------
+menu cards
+-------------*/
+.menu {
+    margin-top: 8%;
+}
+#food1 {
+    width:70%;
+    height:100%;
+    margin-left: 15%;
+}
+.foodheading {
+    text-align:center;
+    margin-top:20%;
+    font-family: 'Poiret One', Courier, monospace;
+    font-weight: 500;
+}
+.foodtxt {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.5;
+    margin-top: 5%;
+    font-family:'Cormorant Garamond', Courier, monospace; 
+    font-size: 1.1em;
+}
+#food2 {
+    width:70%;
+    height:100%;
+    margin-left: 15%;
+
+}
+.seemenu  {
+    text-align: center;
+    font-family: 'Nothing You Could Do', Courier, monospace;
+    font-size: 1.5em;
+    color: #0c0f25;
+    opacity:0.5;
+}
+
+/*-------------
+carousel slide
+---------------*/
+.slider {
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+#img1 {
+    height: 90vh; 
+}
+#img2 {
+    height: 90vh;
+}
+#img3 {
+    height: 90vh;
+
+}
+
+/*-------------
+map
+-------------*/
+.map {
+    margin-top: 5%;
+    
+}
+.contacts {
+    margin-top:3%;
+}
+.contact1{
+    text-align: center;
+    font-family: 'Poiret One', Courier, monospace;
+    font-weight: 500;
+
+}
+.contact2{
+    text-align: center;
+    font-family:'Cormorant Garamond', Courier, monospace; 
+    font-size: 1em;
+}
+.contact2 a:link {
+    text-decoration: none;
+    color: black;
+}
+.contact2 a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.contact2 a:visited {
+    text-decoration: none;
+}
+/*-----------
+footer
+-----------*/
+li {
+    display: inline;
+   
+}
+.soc {
+    margin: auto;
+    margin-top: 3%;
+    
+}
+.social a{
+    position: center;
+}
+.social a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+.fa-facebook-square {
+    color:grey;
+}
+.fa-instagram-square {
+    color:grey;
+}
+.fa-envelope-square {
+    color:grey;
+}
+.cp {
+    font-family: 'Cormorant Garamond', Courier, monospace;
+}
+
+/*----------------------
+ABOUT PAGE STARTS
+-----------------------*/
+/*--------------------
+the first section
+--------------------*/
+.intro1 {
+    margin-top: 4%;
+}
+#in1 {
+    width: 100%;
+    height: 100%;
+}
+.inmsg1 {
+    font-family: 'Poiret One', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 25%;
+    font-size: 3em;
+    font-weight: 500;
+}
+.inmsg2 {
+    font-family: 'Nothing You Could Do', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    color: #0c0f25;
+    opacity: 0.6;
+}
+.inmsg3 {
+    font-family: 'Cormorant Garamond', Courier, monospace;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 1em;
+    color: #0c0f25;
+}
+.inmsg3ex {
+    font-family: 'Cormorant Garamond', Courier, monospace;
+    text-align: center;
+    font-size: 1em;
+    color: #0c0f25;
+}
+
+.scrollme p {
+    font-family: 'Cormorant Garamond', Courier, monospace;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #67686b;
+    opacity: 0.6;
+}
+.intro1 a:hover {
+    color: grey;
+    opacity:2;
+    text-decoration: none;
+}
+/*--------------------
+scroll down animation
+----------------------*/
+.scroll-down {
+	
+    margin: auto;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+    width: 13px;
+    height: 13px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    opacity: 0.5;
+    z-index: 9;
+    -webkit-transform: translate(-50%, 0%) rotate(45deg);
+    -moz-transform: translate(-50%, 0%) rotate(45deg);
+    transform: translate(-50%, 0%) rotate(45deg);
+    -webkit-animation: fade_move_down 4s ease-in-out infinite;
+    -moz-animation: fade_move_down 4s ease-in-out infinite;
+    animation:fade_move_down 4s ease-in-out infinite;
+}
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+/*---------
+intro 2
+--------*/
+.intro2 {
+    margin-top: 8%;
+}
+#chef1 {
+    width:70%;
+    height:100%;
+    margin-left: 15%;
+}
+
+/*-----------
+intro 3
+-------------*/
+.intro3 {
+    margin-top:8% ;
+}
+#chef2 {
+    width:70%;
+    height:100%;
+    margin-left: 15%;
+}
+.inmsg4{
+    font-family: 'Nothing You Could Do', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    color: #0c0f25;
+    opacity: 0.6;
+
+}
+/*-------------
+intro 4
+---------------*/
+.intro4 {
+    margin-top:8%;
+}
+.view1 {
+    font-family: 'Poiret One', Courier, monospace;
+    font-weight: 500;
+    text-align: center;
+}
+.view2 {
+    font-family: 'Nothing You Could Do', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: #0c0f25;
+    opacity: 0.6;
+}
+/*-------------
+slider images
+---------------*/
+#img11 {
+    height: 90vh; 
+}
+#img21 {
+    height: 90vh;
+}
+#img31 {
+    height: 90vh;
+
+}
+#img41 {
+    height: 90vh;
+
+}
+
+/*---------------
+MENU PAGE STARTS
+----------------*/
+#in12 {
+    width: 100%;
+    height: 100%;
+
+}
+/*-------------
+big headings 
+--------------*/
+.bigheading {
+    font-family: 'Poiret One', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+/*--------------
+food names
+----------------*/
+.appetizers {
+    margin-top: 3%;
+}
+.maindish {
+    margin-top: 3%;
+}
+.wine {
+    margin-top: 3%;
+}
+.kids {
+    margin-top: 3%;
+}
+.names {
+    margin-top: 3%;
+}
+.menuheading {
+    font-family: 'Caveat', Courier, monospace;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+    color: #0c0f25;
+    opacity: 0.7;
+}
+.extrades {
+    font-family: 'Poiret One', Courier, monospace;
+    text-align: center;
+    font-size: 1em;
+
+}
+/*------------------------
+slider for the appetizers
+-------------------------*/
+.parent {
+    height: 100%;
+    width: 80%;
+}
+.img {
+    height:80%;
+    width:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------
+media queries
+------------*/
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+        width:100%;
+    }
+    #write1 {
+        margin-top: 10%;
+
+    }
+    .foodtxt {
+        margin-top:10%;
+    }
+    .slider {
+        width:100%;
+    }
+    #img1 {
+        height: 40vh; 
+    }
+    #img2 {
+        height: 40vh;
+    }
+    #img3 {
+        height: 40vh;
+    
+    }
+    #img11 {
+        height: 40vh; 
+    }
+    #img21 {
+        height: 40vh;
+    }
+    #img31 {
+        height: 40vh;
+    
+    }
+    #img41 {
+        height: 40vh;
+    
+    }
+    .mapm {
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+            
+    }
+    /*------------------------------------
+    to hide the mouseover div on phones
+    -------------------------------------*/
+    .mouseani {
+        display: none;
+    }
+    
+  }
