@@ -5,6 +5,7 @@ html {
     width:100vw;
     margin-right:0;
     overflow-x: hidden; /*to hide the extra white space at the right*/
+    scroll-behavior: smooth;
 }
 body {
     width:100vw;
